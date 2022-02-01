@@ -1,0 +1,34 @@
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+class Ideone
+{
+ public static void main(String[] args) throws java.lang.Exception
+ {
+ System.out.println("Кофе-машина - Завьялова Варя");
+ int moneyAmoyt = 150;
+ System.out.println("Вы внесли" + moneyAmoyt + "руб.");
+ int cappychinoPrice = 200;
+ int ecspressoPrice = 180;
+ int amerekanoPrice = 150;
+ int cаcaoPrice = 100;
+ if (moneyAmoyt >= cappychinoPrice) 
+ {
+ System.out.println("Вы можете купить капучино");
+ }
+ if (moneyAmoyt >= ecspressoPrice) 
+ {
+ System.out.println("Вы можете купить экспрессо");
+ }
+ if (moneyAmoyt >= amerekanoPrice) 
+ {
+ System.out.println("Вы можете купить амерекано");
+ }
+ if (moneyAmoyt >= cаcaoPrice ) 
+ {
+ System.out.println("Вы можете купить какао");
+ }
+ 
+ }
+}
